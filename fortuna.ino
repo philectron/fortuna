@@ -1,25 +1,16 @@
 /**
- * Project Name: Robot Collection - Project 01: Fortuna
+ * @file     fortuna.ino
+ * @author   Phi Luu
+ * @date     March 13, 2016
  *
- * File Name: fortuna.ino
+ * @brief    Robot Collection - Project 01: Fortuna
  *
- * Description: The robot...
- *   moves forward by two motors on its left and right wings (wings)
- *   automatically beeps when activating (mouth)
- *   flashes the LEDs like an airplane at night
- *   determines the ON-OFF status of the motors by two photocells (eyes)
- *   listens to loud noise and changes behaviors of mouth and wings (ear)
+ * @section  DESCRIPTION
  *
- * Compatibility: Arduino UNO
- *
- * Version:
- *   1.0 (July 17, 2016)
- *   1.1 (January 07, 2017)
- *
- * Phi Luu
- * Portland, Oregon, United States
- * Created March 13, 2016
- * Updated January 15, 2017
+ * This robot bounces forward by two motors on its left and right wings. It
+ * automatically beeps and flashes LEDs while bouncing. The robot also
+ * changes the behaviors based on the amount of light received by the two
+ * photocells.
  */
 
 // Required hardware I/O connections
