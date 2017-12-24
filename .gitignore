@@ -49,6 +49,7 @@
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+.tmp_versions/
 modules.order
 Module.symvers
 Mkfile.old
@@ -95,6 +96,8 @@ dkms.conf
 # EAGLE
 # =========================
 
+# Ignore list for Eagle, a PCB layout tool
+
 # Backup files
 *.s#?
 *.b#?
@@ -138,41 +141,19 @@ eagle.epf
 *.lck
 
 # =========================
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# =========================
 # Windows
 # =========================
 
-# Windows image file caches
+# Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
 
 # Folder config file
-Desktop.ini
+[Dd]esktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
